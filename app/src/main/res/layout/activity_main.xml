@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:padding="90px"
     android:gravity="center"
-    android:background="#D3C2F0"
+    android:background="#D4CEDE"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <TextView
@@ -54,4 +54,10 @@
         android:text="submit"
         android:layout_margin="20px"
         android:id="@+id/submitbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW FRIENDS"
+        android:layout_margin="20px"
+        android:id="@+id/viewbtn"/>
 </LinearLayout>
